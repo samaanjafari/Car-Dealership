@@ -63,7 +63,7 @@ for i in range (1,20):
         x.append([year,mile])
         y.append(price)
         
-        
+    #U can skip the truncating part and have data in your database i do this cuz my database will be overcrowded and nasty    
     removal = 'TRUNCATE TABLE cars;'
     cursor.execute(removal)         
 cnx.close()         
