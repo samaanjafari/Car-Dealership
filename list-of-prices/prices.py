@@ -2,9 +2,9 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from mysql.connector import (connection)
-cnx = connection.MySQLConnection(user='root', password='samanJA1381',
+cnx = connection.MySQLConnection(user='username', password='yourpass',
                                  host='127.0.0.1',
-                                 database='maktabkhooneh')
+                                 database='databasename')
 
 vehicle = input('what car are u looking for?(brand and model): ').split(' ')
 
