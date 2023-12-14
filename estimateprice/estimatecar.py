@@ -6,9 +6,9 @@ from sklearn import tree
 keeper = []
 x = []
 y = []
-cnx = connection.MySQLConnection(user='root', password='samanJA1381',
+cnx = connection.MySQLConnection(user='username', password='yourpass',
                                  host='127.0.0.1',
-                                 database='maktabkhooneh')
+                                 database='yourdatabase')
 
 estimate = input('write coronologically 1-brand 2-model 3-year and 4-mileage of your car and seprate them with just one withespace to estimate how much does it worth.(BE CATIUOS U HAVE TO SEPRATE DATAS WITH ONLY  JUST ONE SPACE OTHERWISE IT WONT WORK) ').split(' ')
 
