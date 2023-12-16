@@ -38,7 +38,7 @@ for car in cars:
     cursor = cnx.cursor()
     cursor.execute('INSERT INTO cars VALUES (\'%s\',\'%s\' , \'%i\' , \'%s\' , \'%s\') '  % ((brand,model,year,price,mile)))
     cnx.commit()        
-    print('%s %s %i is %s and mileage is %s'%(brand,model,year,price,mile))
+    #print('%s %s %i is %s and mileage is %s'%(brand,model,year,price,mile))
     count+=1
     if count==20:
         break
