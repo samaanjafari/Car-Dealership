@@ -9,3 +9,7 @@ pip install re
 
 #### Beautifulsoup: 
 pip install bs4
+
+### If you want run estimate your own car price you need machine learning package also:
+
+pip install -U scikit-learn
