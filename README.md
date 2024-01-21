@@ -2,13 +2,16 @@ This code will send an API request  to www.truecar.com. This site is one of the 
 #### If you want to insert data to a database you first need to to download mysql from https://dev.mysql.com/downloads/installer to your computer.
 ## Requirment Packages:
 #### mysql connector to python: 
-pip install mysql-connector
+pip install mysql-connector-python
 
-#### Regex packag: 
+## Packages: 
 pip install re
 
-#### Beautifulsoup: 
 pip install bs4
+
+pip install pandas
+
+pip install jupyterlab
 
 ### If you want run estimate your own car price you need machine learning package also:
 
