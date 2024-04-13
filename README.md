@@ -16,3 +16,5 @@ pip install jupyterlab
 ### If you want run estimate your own car price you need machine learning package also:
 
 pip install -U scikit-learn
+
+## Otherwise U can clone requiremets file
